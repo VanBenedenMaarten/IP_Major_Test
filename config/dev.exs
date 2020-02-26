@@ -3,8 +3,8 @@ use Mix.Config
 # Configure your database
 config :testdb, Testdb.Repo,
   username: "root",
-  password: "",
-  database: "testdb_dev",
+  password: "t",
+  database: "testdb_test",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
